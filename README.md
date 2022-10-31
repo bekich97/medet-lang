@@ -12,6 +12,8 @@ npm install --save medet-lang
 
 ## Usage
 
+Firstly, create your .json translate dictionary
+
 ```json
 {
     "test": {
