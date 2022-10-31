@@ -2,7 +2,11 @@
   "name": "medet-lang",
   "version": "1.0.0",
   "description": "Easy language package",
-  "author": "bekich97",
+  "author": {
+    "name": "Medet Kadyrov",
+    "email": "medet.kadyr2020@gmail.com"
+  },
+  "homepage": "https://github.com/bekich97/medet-lang",
   "license": "MIT",
   "repository": "bekich97/medet-lang",
   "main": "dist/index.js",
@@ -11,6 +15,13 @@
   "engines": {
     "node": ">=10"
   },
+  "keywords": [
+    "react",
+    "language",
+    "lang",
+    "react-component",
+    "translation"
+  ],
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",

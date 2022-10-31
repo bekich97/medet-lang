@@ -12,15 +12,36 @@ npm install --save medet-lang
 
 ## Usage
 
+```json
+{
+    "test": {
+        "en": "Test",
+        "ru": "Тест",
+        "tm": "Barlag"
+    },
+    "home": {
+        "en": "Home",
+        "ru": "Главная",
+        "tm": "Baş sahypa"
+    }
+}
+```
+
+Then
+
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'medet-lang'
+import EasyLang from 'medet-lang'
 import 'medet-lang/dist/index.css'
 
+// Import Lang dictionary
+import jsonFile from './lang.json';
+
 class Example extends Component {
+  const _ = (text) => EasyLang({lang: "tm", jsonFile: jsonFile, text: text});
   render() {
-    return <MyComponent />
+    return _("test");
   }
 }
 ```

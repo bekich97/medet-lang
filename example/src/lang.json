@@ -1,0 +1,12 @@
+{
+    "test": {
+        "en": "Test",
+        "ru": "Тест",
+        "tm": "Barlag"
+    },
+    "home": {
+        "en": "Home",
+        "ru": "Главная",
+        "tm": "Baş sahypa"
+    }
+}
